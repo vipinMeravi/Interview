@@ -149,18 +149,47 @@ DOM Manipulation
 Error Handling (try...catch)
 JSON (JavaScript Object Notation)
 Asynchronous JavaScript (AJAX)
-Strict Mode
-Type Coercion
-Function Declarations vs. Function Expressions
+Q. Strict Mode
+A. Strict mode in JavaScript provides a way to opt into a safer and more reliable subset of the language by catching common errors and improving performance. It helps:
+
+= Prevent accidental global variable declarations.
+= Catch common mistakes like assignments to non-writable properties or undeletable properties.
+= Eliminate "this" coercion and ambiguous syntax.
+
+Q. Type Coercion
+A. Type coercion in JavaScript is the automatic or implicit conversion of values from one data type to another (such as strings to numbers, objects to booleans, and so on). This happens because JavaScript is a loosely typed or dynamically typed language, meaning variables can hold values of any type without declaring their type explicitly.
+
+Q. Function Declarations vs. Function Expressions
+A. Function Declarations: Named functions that are hoisted, making them accessible anywhere in their scope before they are defined.
+Function Expressions: Functions defined within an expression, not hoisted, and can be anonymous or named(eg. callback function).
+Understanding the differences and appropriate use cases for function declarations and function expressions can help you write more effective and maintainable JavaScript code.
+
 IIFE (Immediately Invoked Function Expressions)
 setTimeout() and setInterval()
 Web Storage (localStorage and sessionStorage)
 Functional Programming Concepts
-Memoization
+
+Q. Memoization
+A. Key Characteristics:
+= Caches function results.
+= Based on function inputs.
+= Enhances performance for repeated calculations
+Memoization: Caches the results of function calls to optimize repeated executions with the same inputs.
+
 Recursion
-Design Patterns in JavaScript (e.g., Singleton, Observer, Factory)
-Unit Testing Frameworks (e.g., Jest, Mocha, Jasmine)
-Frontend Frameworks (e.g., React, Vue.js, Angular)
+
+Q. Design Patterns in JavaScript (e.g., Singleton, Observer, Factory)
+A. Singleton Pattern: Ensures a class has a single instance, used for managing resources or state that should only exist once.
+ These design patterns help structure your code in a way that is scalable, maintainable, and reusable. Understanding and implementing these patterns can greatly improve your JavaScript applications.
+ = Singleton: Ensures a class has only one instance.
+ = Observer: Defines a one-to-many dependency between objects.
+ = Factory: Creates objects without specifying the exact class.
+ = Module: Encapsulates private data and functions.
+ = Prototype: Creates objects by copying an existing object.
+ = Command: Encapsulates information needed to perform an action.
+ = Decorator: Adds behavior to objects dynamically.
+
+
 Package Managers (e.g., npm, Yarn)
 RESTful APIs and Fetch API
 CORS (Cross-Origin Resource Sharing)
